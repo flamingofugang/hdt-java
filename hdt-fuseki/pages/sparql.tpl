@@ -51,11 +51,14 @@
         <br/>
 
         Output: <select name="output">
-          <option value="text">Text</option>
-          <option value="json">JSON</option>
-          <option value="xml">XML</option>
-          <option value="csv">CSV</option>
-          <option value="tsv">TSV</option>
+            <option value="json-rdf">JSON</option>
+			<option value="json-ld">JSONLD</option>
+            <option value="xml">XML</option>
+			<option value="ttl">TURTLE</option>
+			<option value="nt">NTRIPLES</option>
+            <option value="text">Text</option>
+            <option value="csv">CSV</option>
+            <option value="tsv">TSV</option>
         </select>
         <br/>
 	    If XML output, add XSLT style sheet (blank for none): 
